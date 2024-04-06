@@ -1,0 +1,411 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding, Margin, Border</title>
+    <style>
+        .box{
+            background-color: red;
+            padding: 20px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: blue;
+            margin: 30px;
+        }
+
+        .box2{
+            background-color: yellow;
+        }
+
+        .boxx{
+            border: 10px, solid, blue;
+            margin: 10px, 20px, 30px;
+        }
+
+        .boxx2{
+            border-top: 8px solid, red;
+            border-left: 10px, solid, yellow;
+            border-right: 5px, solid, blue;
+            border-bottom: 10px, solid, green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">Box (quti) modelini amalda korish</div>
+    <div class="box2">Div block</div>
+
+    <div class="boxx2">Quti 1</div>
+    <div class="boxx2">Quti 2</div>
+</body>
+</html> -->
+
+--------------------------------------------------------------------------------------------
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class va Combined</title>
+    <style>
+        .text-red{
+            color: red;
+        }
+        .text-bold{
+            font-weight: bold;
+        }
+        .text-green{
+            color: green;
+        }
+        .text-italic{
+            font-style: italic;
+        }
+
+        h1#activ, h1.active{
+            color: red;
+        }
+
+        h1#activ, h1.active{
+            background-color: red;
+            color: wheat;
+        }
+
+        a#activ{
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="text-red, text-bold">Qizil va qalin text</div>
+    <div class="text-green, text-bold">yashil va qalin text</div>
+    <h1 class="text-green">yashil text</h1>
+    <h2 class="text-red, text-italic">heading 2</h2>
+    <h3 class="text-green, text-red">Heading 3</h3>
+
+
+    <h1 id="activ">Sarlovha 1</h1>
+    <h1 class="active">Sarlavha 2</h1>
+
+    <a href="#" id="activ"> I love 1</a>
+    <a href="#" class="active"> I love 2</a>
+
+</body>
+</html> -->
+
+
+_________________________________________________________________________________
+
+
+<!-- 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators</title>
+    <style>
+        div + p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h2>Avlod selektori</h2>
+    <p>Belgilangan elementning avlodlaribo'lgan barcha elementlarni tanlab oladi</p>
+
+    <div>
+        <p>Paragraph 1 "div" ichida</p>
+        <p>Paragraph 2 "div" ichida</p>
+    </div>
+    
+    <p>Paragraph 3 "div" ichida emas</p>
+    <p>Paragraph 4 "div" ichida emas</p>
+    
+    <div>
+    <p>Paragraph 5 "div" ichida emas</p>
+    <p>Paragraph 6 "div" ichida emas</p>
+    </div>
+
+    <p>Paragraph 7 "div" ichida emas</p>
+    <p>Paragraph 8 "div" ichida emas</p>
+
+</body>
+</html> -->
+
+_________________________________________________________________________________
+
+
+uneversal selector*/
+ {
+    color:  blue;
+}
+
+tag sele=actor*/
+h1{
+    color: green;
+}
+
+
+_________________________________________________________________________________
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css asoslari</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="comments.css">
+    <link rel="stylesheet" href="specificity.css">
+</head>
+<body>
+    <h1 id="heading", class="heading">Heading 1</h1>
+    <p class="kurs_nomi">Css asoslari</p>
+    <p id="kurs_nomi">Css birinchi dars</p>
+    <p disabled>CSS kursi</p>
+</body>
+</html> -->
+
+_________________________________________________________________________________
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css loyha</title>
+</head>
+<body>
+    <!--Header sectio-->
+    <!-- <header class="main-header">
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="#">Asosiy </a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Men haqimda</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Xizmatlar</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Mijozlarim</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Partfolio</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Blog</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Sheriklar</a>
+                </li>
+            </ul>
+        </nav>
+    </header> -->
+    <!--/Header section-->
+
+    <!--Main section-->
+    <!-- <section id="main-section">
+        <h1>Asosiy qism</h1>
+    </section> -->
+    <!--/Main section-->
+
+    <!--About me section-->
+    <!-- <section id="about-me">
+        <h1>Men haqimda</h1>
+    </section> -->
+    <!--/About me section-->
+
+    <!--Services section-->
+    <!-- <section id="Services">
+        <h1>Mening xizmatlarim</h1>
+    </section> -->
+    <!--/Services section-->
+
+    <!--Clintes section-->
+    <!-- <section id="clintes">
+        <h1>Mening mijozlarim</h1>
+    </section> -->
+    <!--/Clintes section-->
+
+    <!--Portfolio section-->
+    <!-- <section id="portfolio">
+        <h1>Portfolio</h1>
+    </section> -->
+    <!--/Portfolio section-->
+
+    <!--Blog section-->
+    <!-- <section id="blog">
+        <h1>Mening blogim</h1>
+    </section> -->
+    <!--Blog section-->
+
+    <!--Partners section-->
+    <!-- <section id="partners">
+        <h1>Mening sheriklarim</h1>
+    </section> -->
+    <!--Partners section-->
+
+    <!--footer section-->
+    <!-- <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Asosiy </a>
+                </li>
+                <li>
+                    <a href="#">Men haqimda</a>
+                </li>
+                <li>
+                    <a href="#">Xizmatlar</a>
+                </li>
+                <li>
+                    <a href="#">Mijozlarim</a>
+                </li>
+                <li>
+                    <a href="#">Partfolio</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Sheriklar</a>
+                </li>
+            </ul>
+        </nav>
+    </footer> -->
+    <!-- /FOOTER SECTION -->
+<!-- </body>
+</html> --> -->
+
+
+_________________________________________________________________________________
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important</title>
+    <style>
+        h1{
+            color: red !important;
+        }
+        .sarlovha{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="sarlovha">"!important" yordamida style berish</h1>
+</body>
+</html> -->
+
+
+_________________________________________________________________________________
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        section{
+            color: red;
+        }
+        p{
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Heading 1</h1>
+            <p>Paragraph 1</p>
+        </div>
+    </section>
+</body>
+</html> -->
+
+
+
+_________________________________________________________________________________
+
+
+
+
+#heading{
+    color: red;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+
+h1{
+    font-size: 40px;
+    color: green;
+}
+
+
+
+_________________________________________________________________________________
+
+
+
+* {
+    color:  blue;
+}
+
+.kurs_nomi{
+
+    color: red;
+    text-align: center;
+}
+
+#kurs_nomi{
+    color: green;
+    font-size: 40px;
+}
+
+[disabled]{
+    color: rgb(35, 46, 207);
+    justify-content: center;
+}
+
